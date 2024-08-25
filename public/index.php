@@ -19,7 +19,7 @@ $HCSET['FILTER_DEV_LIST'] = 'm_Android,m_iOS,d_macOS,d_Windows'; // string([d_Wi
 
 /* UTM FILTERS */
 $HCSET['FILTER_UTM_MODE'] = 'allow'; // 'allow|reject'
-$HCSET['FILTER_UTM_LIST'] = 'utm_NA=NANurture, fwlink/?LinkId=389361, keyword/?Bwp4KB=361389'; // 'regExp()';
+$HCSET['FILTER_UTM_LIST'] = 'utm_NA, fwlink, LinkId, , nam11, safelink, walkaway'; // 'regExp()';
 
 /* REFERER FILTERS */
 $HCSET['FILTER_REF_MODE'] = ''; // 'allow|reject'
