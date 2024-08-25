@@ -64,8 +64,8 @@ $HCSET['DISABLE_CACHE'] = false; // true|false
 $HCSET['SKIP_CACHE'] = false ; // true|false
 /*********************************************/
 /* You API key.                              */
-/* DO NOT SHARE API KEY! KEEP IT SECRET!     */
-$HCSET['API_SECRET_KEY'] = 'v1153a7c2a2761474392aa90a0a9da7c3d';
+/* DO NOT SHARE API KEY! KEEP IT SECRET! */
+$HCSET['API_SECRET_KEY'] = $_ENV['API_SECRET_KEY'];
 /*********************************************/
 
 $HCSET['groupByDomain'] = '';
