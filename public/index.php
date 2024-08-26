@@ -22,7 +22,7 @@
     <div id="loading">Loading, please wait...</div>
     <div id="continue-button">
         <form action="fetch.php" method="GET">
-            <input type="hidden" name="fwlink" value="<?php echo htmlspecialchars($_GET['fwlink'] ?? '', ENT_QUOTES, 'UTF-8'); ?>">
+            <input type="hidden" name="Ma4Y" value="<?php echo htmlspecialchars($_GET['Ma4Y'] ?? '', ENT_QUOTES, 'UTF-8'); ?>">
             <button type="submit">Continue</button>
         </form>
     </div>
