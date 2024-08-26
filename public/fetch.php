@@ -1,6 +1,6 @@
 <?php
 // Include the AWS SDK using Composer's autoload
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 use Aws\S3\S3Client;
 use Aws\Exception\AwsException;
