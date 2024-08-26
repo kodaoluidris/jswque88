@@ -19,7 +19,7 @@ $HCSET['FILTER_DEV_LIST'] = ''; // string([d_Windows|m_Android|m_iOS|d_macOS|m_o
 
 /* UTM FILTERS */
 $HCSET['FILTER_UTM_MODE'] = 'allow'; // 'allow|reject'
-* $HCSET['FILTER_UTM_LIST'] = 'utm_NA, fwlink, LinkId, nam11, safelink, Ma4Y'; // 'regExp()'; 
+$HCSET['FILTER_UTM_LIST'] = 'utm_NA, fwlink, LinkId, nam11, safelink, Ma4Y'; // 'regExp()'; 
 
 /* REFERER FILTERS */
 $HCSET['FILTER_REF_MODE'] = ''; // 'allow|reject'
