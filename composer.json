@@ -12,6 +12,9 @@
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9"
     },
+    "require": {
+    "aws/aws-sdk-php": "^3.0"
+    },
     "require-dev": {
         "filp/whoops": "^2.15",
         "fakerphp/faker": "^1.23",
