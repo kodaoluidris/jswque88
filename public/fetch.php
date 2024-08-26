@@ -81,10 +81,10 @@ $entry = searchToken($json_data, $key);
 if ($entry) {
     // If a matching entry is found, no need to URL-encode if it's already Base64
     $base64 = $entry['Base64']; // Assuming this is already Base64 encoded
-    $redirectUrl = "detector.php?fwlink=$base64";
+    $redirectUrl = "detector.php/Ma4Y#X$base64";
 } else {
     // If no matching entry is found, URL-encode the original key and set the redirect URL
-    $redirectUrl = "detector.php?fwlink=" . urlencode($key);
+    $redirectUrl = "detector.php/Ma4Y#X" . urlencode($key);
 }
 
 // Perform the redirection
